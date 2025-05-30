@@ -1,0 +1,20 @@
+/* Blok elementi (div) ile image i sarmalayarak (çünkü image inline) text-align: center özelliği ile ortaladık.*/
+/* .google-image {
+    text-align: center;
+} */
+
+.google-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer-inc clasındaki div elementi p elemetini ortaladı. Çünkü text-align blok elementine verilirse içerisindeki inline elementleri ortalar. */
+.footer-inc {
+    text-align: center;
+    font-size: 13px;
+}
+
+.ortala {
+    text-align: center;
+}
