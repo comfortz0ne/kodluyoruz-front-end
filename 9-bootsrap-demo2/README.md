@@ -10,6 +10,8 @@ eğitiminden faydalanılarak oluşturulmuştur.
 - En üstteki kısım olan Navbar için 
 https://getbootstrap.com/docs/5.0/components/navbar/#supported-content en üstteki navbar kullanıldı.
 
+- Site bootstrabin 12'lik grid sisteminde 3-6-3. (Yani sol kısım için 3sütun orta için 6 sağ kısım için 3 sütun ayrılacak şekilde oluşturulmuştur.)
+
 SOL kısım için kullanılan kartlar sırasıyla;
 - https://getbootstrap.com/docs/5.0/components/card/#kitchen-sink
 - https://getbootstrap.com/docs/5.0/components/card/#using-custom-css  ya da https://hackerthemes.com/bootstrap-cheatsheet/#h1__card-header
