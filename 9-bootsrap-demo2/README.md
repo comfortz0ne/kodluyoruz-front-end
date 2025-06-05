@@ -4,7 +4,7 @@ eğitiminden faydalanılarak oluşturulmuştur.
 - https://drive.google.com/file/d/1DABuYd2qEHxdSeHrp5y5cKImzICPj24N/view
 - https://hackerthemes.com/bootstrap-cheatsheet/
 
-### - bootstrap 5.0
+### - bootstrap 5.0 ![logo bootstrap](figures/bootstrap-logo.svg)
 
 - bootstrap starter template dahil edildi. https://getbootstrap.com/docs/5.0/getting-started/introduction/#starter-template
 - En üstteki kısım olan Navbar için 
@@ -50,3 +50,4 @@ sitelerinden çıkan kodu kopyalayarak direk logoyu koymak istediğimiz yere yap
 
 
 ### - jquery 3.5.1
+![bootsrap-demo-2-site](figures\bootstrap-demo-2-site.png)
