@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitem</title>
+    <!-- Bootstrap CSS Linki -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Kendi CSS Dosyamızı Bağlayalım -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigasyon Barı -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+        <a class="navbar-brand" href="#">Kişisel Web Sitem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Hakkımda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projelerim</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- İletişim Bölümü -->
+    <section id="contact" class="container py-5">
+        <h2 class="mb-3 text-info">İletişim</h2>
+        <form class="row">
+            <div class="form-group col-md-4">
+                <label for="name">Adınız</label>
+                <input type="text" class="form-control" id="name" placeholder="Adınızı girin">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="email">E-posta Adresiniz</label>
+                <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi girin">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="message">Mesajınız</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Mesajınızı buraya yazın"></textarea>
+            </div>
+            <div class="col-md-3 ml-auto mr-auto">
+                <button type="submit" class="btn btn-primary ">Gönder</button>
+            </div>
+            
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 fixed-bottom">
+        <p>&copy; 2025 comfortz0ne. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- Bootstrap JS ve jQuery Bağlantıları -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

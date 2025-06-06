@@ -1,0 +1,47 @@
+/* Genel stiller */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* İletişim Formu */
+form input, form textarea {
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 100%;
+}
+
+/* Projeler için kart düzeni */
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
